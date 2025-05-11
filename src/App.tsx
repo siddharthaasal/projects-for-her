@@ -1,6 +1,6 @@
 import "./App.css";
 import "./index.css"
-import { HoverEffect } from "./components/ui/card-hover-effect";
+import { HoverEffect } from "./components/card-hover-effect";
 
 export default function () {
   return (
@@ -26,7 +26,7 @@ export const projects = [
     title: "Will You Be Mine?",
     description:
       "I asked, but the ‘No’ button is just too shy to be clicked—because we both know the answer already.",
-    link: "https://siddharthaasal.github.io/teddy-day/",
+    link: "https://siddharthaasal.github.io/ask-for-valentine/",
   },
   {
     title: "Hug Me, Teddy",
