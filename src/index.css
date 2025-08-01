@@ -1,20 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Cute+Font&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Love+Light&display=swap');
 
 @import "tailwindcss";
 @import "tw-animate-css";
 
-@font-face {
-  font-family: Cute Font;
-  src: url('https://fonts.googleapis.com/css2?family=Cute+Font&display=swap');
-}
 
 @custom-variant dark (&:is(.dark *));
 
 @theme {
+  --font-cute: "Cute Font", "sans-serif";
+  --font-love-light: "Love Light", "cursive";
 
-  --font-cute: "Cute Font", "sans-serif"
 }
-
 
 
 @theme inline {
