@@ -112,7 +112,7 @@ export const DraggableCardBody = ({
       onDragStart={() => {
         document.body.style.cursor = "grabbing";
       }}
-      onDragEnd={(event, info) => {
+      onDragEnd={(_event, info) => {
         document.body.style.cursor = "default";
 
         controls.start({
@@ -128,7 +128,7 @@ export const DraggableCardBody = ({
 
         const velocityMagnitude = Math.sqrt(
           currentVelocityX * currentVelocityX +
-            currentVelocityY * currentVelocityY,
+          currentVelocityY * currentVelocityY,
         );
         const bounce = Math.min(0.8, velocityMagnitude / 1000);
 
